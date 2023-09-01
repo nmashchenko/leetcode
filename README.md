@@ -20,8 +20,8 @@ Hello there! 👋 This is where I chronicle my coding grind, breaking down each 
 
 ## 📈 Progress Overview
 
-- **Total Problems Solved**: 3
-- **Easy Problems**: 3
+- **Total Problems Solved**: 4
+- **Easy Problems**: 4
 - **Medium Problems**: 0
 - **Hard Problems**: 0
 
@@ -56,6 +56,12 @@ Best playlist to code: https://open.spotify.com/playlist/5LodgsmFfRYAojTwEZ9ulR?
 - **Approach**: The problem here is that we can meet next values that can be combination of prev+next, so what we do here is basically, when we see a number that is less than the next number, we substract first digit and then add second (like IV: substract 1 from total and add 5 results in 4)
 - **Challenges**: Coming up with the optimized version, originally just hardcoded values (which is not cool lol)
 - **Time Complexity**: 0(n)
+- **Space Complexity**: 0(1)
+
+#### 4. [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/)
+
+- **Approach**: Sort array to make sure all common strings will be next to each other, then just compare first and last element letters and see when they don't equal to each other, on that point we found substring
+- **Time Complexity**: O(n log n)
 - **Space Complexity**: 0(1)
 
 ### Medium 🟡
