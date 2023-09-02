@@ -64,6 +64,12 @@ Best playlist to code: https://open.spotify.com/playlist/5LodgsmFfRYAojTwEZ9ulR?
 - **Time Complexity**: O(n log n)
 - **Space Complexity**: 0(1)
 
+#### 5. [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/)
+
+- **Approach**: Create a map of valid parentheses and basically use stack to solve, go through each char of string and if it's opening parentheses, add to stack, otherwise pop and check if it's valid, also make sure that stack is empty in the end
+- **Time Complexity**: O(n)
+- **Space Complexity**: 0(n)
+
 ### Medium 🟡
 
 #### 1. [Problem Name with Link]
