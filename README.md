@@ -61,12 +61,28 @@ Best playlist to code: https://open.spotify.com/playlist/5LodgsmFfRYAojTwEZ9ulR?
 #### 4. [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/)
 
 - **Approach**: Sort array to make sure all common strings will be next to each other, then just compare first and last element letters and see when they don't equal to each other, on that point we found substring
+- **Challenges**: Come up with sorting
 - **Time Complexity**: O(n log n)
 - **Space Complexity**: 0(1)
 
 #### 5. [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/)
 
 - **Approach**: Create a map of valid parentheses and basically use stack to solve, go through each char of string and if it's opening parentheses, add to stack, otherwise pop and check if it's valid, also make sure that stack is empty in the end
+- **Challenges**: No challenges
+- **Time Complexity**: O(n)
+- **Space Complexity**: 0(n)
+
+#### 6. [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/)
+
+- **Approach**: Create new list with head node, then just go through lists (while they both exists) and compare which number is less and add this number to head (don't forget to advance pointer on original lists, finally check if any list still has items and add all of that items to the end)
+- **Challenges**: Refresh mind on linked lists (lol)
+- **Time Complexity**: O(m + n)
+- **Space Complexity**: 0(1)
+
+#### 7. [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/)
+
+- **Approach**: Make set from array and then just return length of this array, also fill the original array with values to match the problem description
+- **Challenges**: Understand the problem (lol x2)
 - **Time Complexity**: O(n)
 - **Space Complexity**: 0(n)
 
